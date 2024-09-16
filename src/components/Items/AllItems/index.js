@@ -20,9 +20,7 @@ const AllItems = () => (
         </Link>
         <div className="price-add">
           <h5 id="product-price">&#8377;{product.price}</h5>
-          <Icon small id="add-icon">
-            add_shopping_cart
-          </Icon>
+          
         </div>
       </div>
     ))}
